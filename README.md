@@ -18,7 +18,7 @@ Construct
   ... <many lines of output>
   ...
 Successfully built 0fb21b16f3d
-    #
+#
 ```
 
 * Run
@@ -34,8 +34,8 @@ Successfully built 0fb21b16f3d
 * Verify
 
 ```shell
-    # curl http://localhost:5000
-    -- Hello Flask Dockerized --
-    #
+# curl http://localhost:5000
+-- Hello Flask Dockerized --
+#
 ```
 
