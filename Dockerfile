@@ -1,7 +1,7 @@
 ## Dockerfile - ex-py-docker-flask
 ##
-FROM ubuntu:latest
-RUN apt-get update -y
+FROM launcher.gcr.io/google/ubuntu18_04:latest
+#RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
 COPY . /apt
 WORKDIR /apt
