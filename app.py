@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '-- Hello Flask Dockerized (v1.1)--\n'
+    return '-- Hello Flask Dockerized (v1.2)--\n'
 
 @app.route("/hostname/")
 def return_hostname():
